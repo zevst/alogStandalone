@@ -1,4 +1,4 @@
-[Install](#install)
+This is a standalone logger that uses alog as a logging engine.
 
 # Install
 Clone repository
