@@ -79,12 +79,23 @@
   version = "1.0.1"
 
 [[projects]]
-  branch = "master"
-  digest = "1:4686fbec87a5a4ff4930a99f54dd0aeffc4d8047793713fef2f58e33e963dc09"
+  digest = "1:a74988520a8accaabd5a332d108d86aea8931392be1dbbe05b7167f44cdd98fe"
   name = "github.com/mylockerteam/alog"
   packages = ["."]
   pruneopts = "UT"
-  revision = "d4b652eec6eb9cbc4a31112c4164ed9098e15511"
+  revision = "b968b2f50eecd25dd65c38893b80ad998b31bd7c"
+  version = "0.0.1"
+
+[[projects]]
+  digest = "1:3e39bafd6c2f4bf3c76c3bfd16a2e09e016510ad5db90dc02b88e2f565d6d595"
+  name = "github.com/spf13/afero"
+  packages = [
+    ".",
+    "mem",
+  ]
+  pruneopts = "UT"
+  revision = "f4711e4db9e9a1d3887343acb72b2bbfc2f686f5"
+  version = "v1.2.1"
 
 [[projects]]
   digest = "1:4887e9e89c80299aa520d718239809fdd2a47a9aa394909b169959bfbc424ddf"
@@ -96,11 +107,26 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:8b466798e96432c23185ca32826702885299f94eb644c9a8dedb79771dff383a"
+  digest = "1:8207c052fb873f83c61a5aa16f6add5feb9881eda2112b56f69fd3b9e7f55c3f"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "3b5209105503162ded1863c307ac66fec31120dd"
+  revision = "d0b11bdaac8adb652bff00e49bcacf992835621a"
+
+[[projects]]
+  digest = "1:8029e9743749d4be5bc9f7d42ea1659471767860f0cdc34d37c3111bd308a295"
+  name = "golang.org/x/text"
+  packages = [
+    "internal/gen",
+    "internal/triegen",
+    "internal/ucd",
+    "transform",
+    "unicode/cldr",
+    "unicode/norm",
+  ]
+  pruneopts = "UT"
+  revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
+  version = "v0.3.0"
 
 [[projects]]
   digest = "1:cbc72c4c4886a918d6ab4b95e347ffe259846260f99ebdd8a198c2331cf2b2e9"
