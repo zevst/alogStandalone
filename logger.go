@@ -28,8 +28,7 @@ var logger struct {
 func GetLogger() *alog.Log {
 	logger.once.Do(func() {
 		logger.instance = alog.Create(&alog.Config{
-			TimeFormat:  time.RFC3339Nano,
-			LogFileLine: false,
+			TimeFormat: time.RFC3339Nano,
 			Loggers: alog.LoggerMap{
 				alog.LoggerInfo: getInfoLogger(),
 				alog.LoggerWrn:  getWarningLogger(),

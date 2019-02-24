@@ -28,7 +28,7 @@ func main() {
 	engine.POST("/warning", warningHandler)
 	engine.POST("/error", errorHandler)
 	engine.NoRoute(noRoute)
-	GetLogger().Error(http.ListenAndServe(fmt.Sprintf(":%s", *port), engine), false)
+	GetLogger().Error(http.ListenAndServe(fmt.Sprintf(":%s", *port), engine))
 }
 
 func errorHandler(c *gin.Context) {
@@ -37,7 +37,7 @@ func errorHandler(c *gin.Context) {
 		c.SecureJSON(getResponse400(err))
 		return
 	}
-	GetLogger().Error(errors.New(req.Message), false)
+	GetLogger().Error(errors.New(req.Message))
 	c.SecureJSON(getResponse201())
 	return
 }
