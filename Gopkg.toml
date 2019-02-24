@@ -1,6 +1,6 @@
 [[constraint]]
    name = "github.com/mylockerteam/alog"
-   version = "0.0.1"
+   version = "v0.0.5-alpha"
 
 [prune]
   go-tests = true

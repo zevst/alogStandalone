@@ -79,12 +79,12 @@
   version = "1.0.1"
 
 [[projects]]
-  digest = "1:a74988520a8accaabd5a332d108d86aea8931392be1dbbe05b7167f44cdd98fe"
+  digest = "1:d2f4b00aa09ebe557eb1010c5559361b7705f8780f9bf4781b1c5532945d8796"
   name = "github.com/mylockerteam/alog"
   packages = ["."]
   pruneopts = "UT"
-  revision = "b968b2f50eecd25dd65c38893b80ad998b31bd7c"
-  version = "0.0.1"
+  revision = "3283880486b1e092184669f3d9bfb235a54c2c1d"
+  version = "v0.0.5-alpha"
 
 [[projects]]
   digest = "1:3e39bafd6c2f4bf3c76c3bfd16a2e09e016510ad5db90dc02b88e2f565d6d595"
